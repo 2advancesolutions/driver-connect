@@ -1,12 +1,16 @@
-import { StatusBar } from 'expo-status-bar';
+
 import { StyleSheet, Text, View } from 'react-native';
-import { Login } from './routes/Login'
+import { Login } from './routes/Login';
+import { Passenger } from './routes/Passenger';
+import { BookRide } from './routes/BookRide'
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <StatusBar style="auto" />
       <Login/>
+      <Passenger/>
+   
     </View>
   );
 }
